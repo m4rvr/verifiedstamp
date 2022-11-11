@@ -52,6 +52,3 @@ export async function getCurrentUser(): Promise<User | null> {
     )
   })
 }
-
-// tw id: djYxejh4Y0pDVnU0SmNMMGFnbjg6MTpjaQ
-// tw secret: 9oEc2T6P54tqKtRPWzm3s1_SuvzjVVTweoTYYtBmhc_rXViyeY
