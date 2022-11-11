@@ -8,6 +8,8 @@ declare global {
       readonly TWITTER_API_APP_SECRET: string
     }
   }
+
+  var plausible: (event: string, options?: any) => void
 }
 
 export {}

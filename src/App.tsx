@@ -147,6 +147,8 @@ export default function (): JSX.Element {
         }).then((res) => res.json())
 
         toast.success('You are now (un)officially verified!')
+
+        plausible('add-stamp')
       } catch (error) {
         toast.error('Could not upload image.')
       }
