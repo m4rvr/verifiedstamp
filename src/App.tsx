@@ -91,7 +91,7 @@ export default function (): JSX.Element {
     const img = new Image()
     img.onload = () => {
       const photo = new Image()
-      const url = '../node_modules/@vladmandic/face-api/model'
+      const url = '/model'
       photo.onload = async () => {
         await faceapi.nets.ssdMobilenetv1.loadFromUri(url)
 
