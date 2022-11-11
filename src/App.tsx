@@ -184,6 +184,9 @@ export default function (): JSX.Element {
                 Sign out
               </button>
             </div>
+            <h2 class="mb-8 text-xl font-medium">
+              Click on image to add verified stamp 😁
+            </h2>
             <div class="mb-4">
               <canvas
                 ref={setCanvasRef}
